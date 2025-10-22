@@ -74,28 +74,6 @@ The dataset includes the following columns:
 
 ---
 
-## **Visualizations**
-
-Below are sample visualizations used in the analysis (replace placeholders with your actual plots):
-
-### **Univariate Examples**
-
-* Age distribution: `histogram + KDE`
-* Gender ratio: `bar chart`
-* Education levels: `horizontal bar chart`
-
-### **Bivariate Examples**
-
-* Age vs Salary: `scatterplot + correlation heatmap`
-* Gender vs Salary: `boxplot + pie chart`
-* Education vs Package: `boxplot`
-
-### **Multivariate Examples**
-
-* Education + Gender vs Package: `grouped bar plot`
-* Working hours + Overtime Pay vs Salary: `heatmap`
-* Bonus + Allowances vs Package: `correlation heatmap`
-
 ### **Steps to Upload via Colab Sidebar**
 
 * Open your Colab notebook.
