@@ -96,62 +96,6 @@ Below are sample visualizations used in the analysis (replace placeholders with 
 * Working hours + Overtime Pay vs Salary: `heatmap`
 * Bonus + Allowances vs Package: `correlation heatmap`
 
-*(Include images of each plot in your GitHub using Markdown `![Alt text](image_path.png)` for professionalism.)*
-
----
-
-## **Key Insights**
-
-* Salary tends to **increase with age and experience**, showing a moderate positive correlation.
-* **Gender differences** exist in compensation, with males slightly ahead in average package, though distribution overlaps.
-* Higher education levels generally correspond to **higher salaries and packages**.
-* Certain fields and occupations (e.g., IT, Finance) pay more than others.
-* Overtime pay and bonuses significantly impact the total compensation.
-* Location and company type influence salary trends, with top-paying cities and MNCs offering better packages.
-
----
-
-## **Conclusion**
-
-This EDA project provides a **comprehensive overview of employee demographics, work patterns, and compensation trends**. It helps HR professionals and organizations:
-
-* Identify **salary gaps by gender, field, and role**
-* Optimize **compensation and benefits strategy**
-* Understand **workload vs reward patterns**
-* Make **data-driven workforce planning decisions**
-
----
-
-## **How to Run**
-
-1. Clone the repository:
-
-```bash
-git clone <repository_url>
-```
-
-2. Install required libraries:
-
-```bash
-pip install pandas matplotlib seaborn numpy
-```
-
-3. Run the Jupyter Notebook to view the analysis and visualizations.
-
----
-
-## **Optional Improvements**
-
-* Include **interactive dashboards** using Plotly or Streamlit.
-* Predict salary/package using **machine learning models**.
-* Analyze trends by **department, city, or job type** over time if dataset has a temporal dimension.
-
----
-
-If you want, I can also **write the full README with ready-made Markdown image placeholders** (`![Age Distribution](images/age_dist.png)`) so you can just drop your generated plots into the `images` folder and it will look fully professional on GitHub.
-
-Do you want me to do that next?
-
 
 ## **1. Libraries & Dataset Loading**
 
@@ -477,3 +421,13 @@ plt.show()
 ```
 
 **Purpose:** Check whether bonus and allowances jointly increase the total package.
+
+
+## **Conclusion**
+
+This EDA project provides a **comprehensive overview of employee demographics, work patterns, and compensation trends**. It helps HR professionals and organizations:
+
+* Identify **salary gaps by gender, field, and role**
+* Optimize **compensation and benefits strategy**
+* Understand **workload vs reward patterns**
+* Make **data-driven workforce planning decisions**
