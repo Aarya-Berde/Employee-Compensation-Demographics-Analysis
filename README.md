@@ -96,6 +96,18 @@ Below are sample visualizations used in the analysis (replace placeholders with 
 * Working hours + Overtime Pay vs Salary: `heatmap`
 * Bonus + Allowances vs Package: `correlation heatmap`
 
+### **Steps to Upload via Colab Sidebar**
+
+* Open your Colab notebook.
+
+* On the right-hand side, click the folder icon to open the Files pane.
+
+* Click the Upload button (a file icon with an upward arrow).
+
+* Select your CSV file (employees.csv) from your computer.
+
+* After uploading, Colab will store the file in /content/ by default. You’ll see it listed in the Files pane.
+  
 
 ## **1. Libraries & Dataset Loading**
 
